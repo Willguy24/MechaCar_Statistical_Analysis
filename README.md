@@ -18,21 +18,21 @@ The dataset displays a strong correlation with an R-squared value of .7149, indi
 
 ## Summary Statistics on Suspension Coils
 
-![total_summary](images/total_summary)
-![lot_summary](images/lot_summary)
+![total_summary](Images/total_summary.png)
+![lot_summary](Images/lot_summary.png)
 
 -The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 The overall manufacturing lot's variance of 62 < 100 falls within the expected design specifications of remaining below 100 PSI. However, upon examining the data categorized by Lot number, Lot 3 stands out as a major contributor to the high variance, recording a variance of 170 > 100, which does not meet the design specifications. In contrast, Lot 1 and Lot 2 exhibit significantly lower variance, 1 and 7, respectively.
 
 ## T-Tests on Suspension Coils
-![lots_t_test](images/lots_t_test)
+![lots_t_test](Images/lots_t_test.png)
 
 For the total manufacturing lots, the p-value was calculated to be .6028, while the alpha level was set to .05. Given that .60 > .05, the total manufacturing lots can be regarded as not statistically significant from the normal distribution, and normality can be assumed.
 
-![lot1_t_test](images/lot1_t_test)
+![lot1_t_test](Images/lot1_t_test.png)
 With respect to Lot 1, the p-value was found to be 1 while the alpha level was set at .05. Since 1 > .05, it can be inferred that Lot 1 is not statistically significant from the normal distribution, thus normality can be assumed.
 
-![lot2_t_test](images/lot2_t_test)
+![lot2_t_test](Images/lot2_t_test.png)
 Regarding Lot 2, the p-value was determined to be .6072, and the alpha level was set to .05. Since .60 > .05, it can be concluded that Lot 2 is not statistically significant from the normal distribution, and normality can be assumed.
 
