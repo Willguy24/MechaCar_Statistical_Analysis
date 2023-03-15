@@ -28,11 +28,13 @@ The overall manufacturing lot's variance of 62 < 100 falls within the expected d
 ## T-Tests on Suspension Coils
 ![lots_t_test](Images/lots_t_test.png)
 
-For the total manufacturing lots, the p-value was calculated to be .6028, while the alpha level was set to .05. Given that .60 > .05, the total manufacturing lots can be regarded as not statistically significant from the normal distribution, and normality can be assumed.
+For the total manufacturing lots, the p-value was calculated to be .6028, while the alpha level was set to .05. Given that .60 > .05, the total manufacturing lots can be regarded as not statistically significant from the normal distribution, and normality can be assumed. The mean falls within the 95% confidence interval.
 
 ![lot1_t_test](Images/lot1_t_test.png)
-With respect to Lot 1, the p-value was found to be 1 while the alpha level was set at .05. Since 1 > .05, it can be inferred that Lot 1 is not statistically significant from the normal distribution, thus normality can be assumed.
+With respect to Lot 1, the p-value was found to be 1 while the alpha level was set at .05. Since 1 > .05, it can be inferred that Lot 1 is not statistically significant from the normal distribution, thus normality can be assumed. The mean falls within the 95% confidence interval.
 
 ![lot2_t_test](Images/lot2_t_test.png)
-Regarding Lot 2, the p-value was determined to be .6072, and the alpha level was set to .05. Since .60 > .05, it can be concluded that Lot 2 is not statistically significant from the normal distribution, and normality can be assumed.
+Regarding Lot 2, the p-value was determined to be .6072, and the alpha level was set to .05. Since .60 > .05, it can be concluded that Lot 2 is not statistically significant from the normal distribution, and normality can be assumed. The mean falls within the 95% confidence interval.
 
+![lot3_t_test](Images/lot3_t_test.png)
+Lot 3's p-value was calculated to be .04168, with an alpha level of .05. Since .04 < .05, it can be concluded that Lot 3 is statistically significant from the normal distribution, and normality cannot be assumed. Despite this, the mean value falls within the 95% confidence interval. The mean falls within the 95% confidence interval.
